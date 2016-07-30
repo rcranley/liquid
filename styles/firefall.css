@@ -1,0 +1,20 @@
+/* Custom CSS for Firefall page*/
+
+body{ background-color: #1873cc; }
+
+#container { 
+	background: url(../images/firefall/firefall_bg_header.jpg) top center no-repeat;
+	background-size: 100%;
+}
+
+#footer {
+	background: url(../images/firefall/firefall_bg_footer.jpg) bottom center no-repeat;
+	background-size: 100%;
+	z-index: -1;	
+	background-color: #1e90ff;
+}
+
+#copy {
+	color: black;
+	padding:10px;
+}

@@ -1,0 +1,18 @@
+/* Custom CSS for Halo page*/
+
+body{ background-color: #778899; } 
+
+#container { 
+	background: url(../images/halo/halo_bg_header.jpg) top center no-repeat;
+	background-size: 100%;
+}
+#footer {
+	background: url(../images/halo/halo_bg_footer.jpg) bottom center no-repeat;
+	background-size: 100%;
+	z-index: -1;
+	background-color: #768493;
+}
+#copy {
+	color: black;
+	padding:10px;
+}

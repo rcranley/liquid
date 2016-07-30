@@ -1,0 +1,18 @@
+/* Custom CSS for Beatles page*/
+
+body{ background-color: #e3d873; } 
+
+#container { 
+	background: url(../images/the_beatles_rock_band/the_beatles_bg_header.jpg) top center no-repeat;
+	background-size: 100%;
+}
+#footer {
+	background: url(../images/the_beatles_rock_band/the_beatles_bg_footer.jpg) bottom center no-repeat;
+	background-size: 100%;
+	z-index: -1;
+	background-color: #f0e78c;
+}
+#copy {
+	color: black;
+	padding:10px;
+}

@@ -1,0 +1,18 @@
+/* Custom CSS for Kinect Adventures page*/
+
+body{ background-color: #f9f9ce; }
+
+#container { 
+	background: url(../images/kinect_adventures/kinect_adventures_bg_header.jpg) top center no-repeat;
+	background-size: 100%;
+}
+#footer {
+	background: url(../images/kinect_adventures/kinect_adventures_bg_footer.jpg) bottom center no-repeat;
+	background-size: 100%;
+	z-index: -1;
+	background-color: #ffffe1;
+}
+#copy {
+	color: black;
+	padding:10px;
+}

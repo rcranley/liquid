@@ -1,0 +1,18 @@
+/* Custom CSS for Fable page*/
+
+body{ background-color: #62a8c5; }
+
+#container { 
+	background: url(../images/fable/fable_bg_header.jpg) top center no-repeat;
+	background-size: 100%;
+}
+#footer {
+	background: url(../images/fable/fable_bg_footer.jpg) bottom center no-repeat;
+	background-size: 100%;
+	z-index: -1;
+	background-color: #87ceec;
+}
+#copy {
+	color: black;
+	padding:10px;
+}

@@ -1,0 +1,14 @@
+
+
+@media all and (min-width: 700px) {
+	#copy{
+		color: #f00;
+		margin-top: 150px;
+	}
+}
+@media all and (max-height: 700px) {
+	#copy{
+		color: #f00;
+		margin-top: 50px;
+	}
+}

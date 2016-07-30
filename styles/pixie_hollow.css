@@ -1,0 +1,18 @@
+/* Custom CSS for Pixie Hollow page*/
+
+body{ background-color: #61a7d3; }
+
+#container { 
+	/*background: url(../images/pixie_hollow/pixie_hollow_bg_header.jpg) top center no-repeat;*/
+	background-size: 100%;
+}
+#footer {
+	background: url(../images/pixie_hollow/pixie_hollow_bg_footer.jpg) bottom center no-repeat;
+	background-size: 100%;
+	z-index: -1;
+	background-color: #87cefa;
+}
+#copy {
+	color: black;
+	padding:10px;
+}

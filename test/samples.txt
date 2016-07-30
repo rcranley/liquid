@@ -1,0 +1,29 @@
+	/*
+		$("#header .sub-menu").css("z-index","999999");
+		
+		$("#sub4").animate({'height':'45px'},{ duration: 10, queue: false, complete:  function() {
+			$("#header .sub-menu").animate({'right':'15px'},{duration: 50, queue: false});
+   			$("#sub3").animate({'height':'45px', 'left':'+15px'},{ duration: 10, queue: false , complete: function() {
+   				$("#header .sub-menu").animate({'right':'30px'},{duration: 50, queue: false});
+				$("#sub2").animate({'height':'45px', 'left':'+15px'},{ duration: 10, queue: false , complete: function() {
+					$("#header .sub-menu").animate({'right':'45px'},{duration: 50, queue: false});
+					$("#sub1").animate({'height':'45px', 'left':'+15px'},{ duration: 10, queue: false, complete: function() {
+						$("#header .sub-menu").animate({'right':'60px'},{duration: 50, queue: false});
+					}});				
+				}});
+  			}});
+  		}});
+	*/
+	
+			/*
+			// Don't give the download option on Mobile devices.
+			if($(this).attr('showDLLink') == "true"){
+				//alert( $(this).attr("id") );
+				addDownloadOverlay( $(this).parent() , this) ;
+			}*/		
+			/*
+			// Don't give the download option on Mobile devices.
+			if($(this).attr('showDLLink') == "true"){
+				//alert( $(this).attr("id") );
+				addDownloadOverlay( $(this).parent() , this) ;
+			}*/	
