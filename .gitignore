@@ -16,7 +16,7 @@ local.properties
 .settings/
 .loadpath
 
-images/
+images/services/
 
 # External tool builders
 .externalToolBuilders/
