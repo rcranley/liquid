@@ -16,7 +16,7 @@ local.properties
 .settings/
 .loadpath
 
-images/services/
+images/services/animation_effects/
 
 # External tool builders
 .externalToolBuilders/
