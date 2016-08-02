@@ -4,11 +4,6 @@ $(document).ready(function(){
 	var mouseover = false;
 	var isMobile = isMobileDevice();
 	
-	// Stop people from selecting images/text
-	if( !$(".allowSelect").length ){
-		$("body").mousedown(function(){ return false; })
-	}
-	
 	function setupMobile(){
 		$("img[showCaption]").each(function(index){
 			if( $(this).attr('showCaption') == "true"){
@@ -40,7 +35,7 @@ $(document).ready(function(){
 	);
 	
 	function showNav(){
-		//timeoutID = setTimeout(hideNav, 5000 );
+		timeoutID = setTimeout(hideNav, 5000 );
 		$("#header #slideframe").show().css("z-index","999999");
 		$("#slidepane").animate({top:'0px', left:'0px'}, 100, function(){
 			$(this).addClass('done');
@@ -48,7 +43,7 @@ $(document).ready(function(){
 	}
 	
 	function hideNav(){
-		//clearTimeout(timeoutID);
+		clearTimeout(timeoutID);
  		$("#slidepane").animate({top:'-182px', left:'41px'}, 75, function(){
  			$("#header #slideframe").hide().css("z-index","-999999");
  			$(this).removeClass('done');
@@ -91,30 +86,17 @@ $(document).ready(function(){
 		$(target).find("div.overLay").eq(0).remove();
 	}
 	
-	function doNothing(){}
-	
 	if(!isMobile){	
 		
-		var config = {    
-			sensitivity: 4, // number = sensitivity threshold (must be 1 or higher)    
-			interval: 50, // number = milliseconds for onMouseOver polling interval    
-			over: showNav, // function = onMouseOver callback (REQUIRED)    
-			//timeout: 5000, // number = milliseconds delay before onMouseOut    
-			out: doNothing // function = onMouseOut callback (REQUIRED)
-		};
-		$("#navInfo").hoverIntent( config );
-		
-		/*
 		$("#navInfo").mouseenter( function(){
 			//setTimeout(showNav,10 );
-			showNav();
+            showNav();
 		});
-		*/
+		
 		$("#slidepane").mouseleave(function(){
 			if($(this).hasClass('done') ){
-				setTimeout(hideNav,50);
-				$(this).removeClass('done');
-				//hideNav();
+				//setTimeout(hideNav,10);
+                hideNav();
 			}
 		}).mouseenter(function(){
 			//clearTimeout(timeoutID);
@@ -122,27 +104,21 @@ $(document).ready(function(){
 		
 		$("#slideframe").mouseleave(function(){
 			if(!$("#slidepane").hasClass('done') ){
-				setTimeout(hideNav,50);
-				$(this).removeClass('done');
-				//hideNav();
+				//setTimeout(hideNav,500);
+                hideNav();
 			}
 		});
-		
+	
 	}else{
 		setupMobile();
 	}
 	
 	$(".imgHover").live('mouseenter', function(){
-		$(this).parent().next().css('opacity','1');
+		$(this).next().css('opacity','1');
 	}).live('mouseout',function(){
-		$(this).parent().next().css('opacity','0');
+		$(this).next().css('opacity','0');
 	});
 	
-	$(".overLayHome").live('mouseenter', function(){
-		$(this).css('opacity','1');
-	}).live('mouseout',function(){
-		$(this).css('opacity','0');
-	});
 	
 	//$(window)
 	//	.bind('resize', fixFooter );	

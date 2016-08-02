@@ -82,7 +82,7 @@ $(window).load(function(){
 		if( $(".slide .clicked").eq(0).attr("hashr") != "false" ){
 			showDLLinks = true;
 			$("#viewhr").unbind().bind('click',function(){
-				window.open( $(img).attr("src").replace(".jpg", "_high_res.jpg") );
+				window.open( $(img).attr("src").replace(".jpg", "_hd.jpg") );
 			}).show();
 			loc -= 30;
 		}else{
@@ -155,7 +155,7 @@ $(window).load(function(){
 				$('#fullContainer').append(this);	
 				$(".loading").height( $('#fullContainer').height() );	
 				
-				$(this).fadeIn(500, function(){
+				$(this).fadeIn(400, function(){
 					$(".fullImage").not(':last').remove();	
 					$('#fullContainer').find(".loading").remove();
 				}); 
@@ -185,7 +185,7 @@ $(window).load(function(){
 				.appendTo( $('#fullContainer') )
 			;
 		}
-		$(".loading").height( $('#fullContainer').height() );
+		
 		$("#fullVideo")
 			.html('<img src="' + video + '.jpg" alt="'+alt+'" style="cursor: pointer;" />')
 			.click(function(){
@@ -201,14 +201,13 @@ $(window).load(function(){
 			})
 			.height( $('#fullContainer').height() )
 		;		
+		var playOverlay = $("<div class='videoControl play'></div>");
+		$(playOverlay).appendTo( $("#fullVideo") );
 			
 		$('#fullContainer')
 			.find(".loading").remove()
 		;
-		//adjustSlideshow();		
-		
-		var playOverlay = $("<div class='videoControl play'></div>");
-		$(playOverlay).appendTo( $("#fullVideo") );
+		//adjustSlideshow();
 	}
 	
 	function moveSlider(position, actual, moveSS){
@@ -272,10 +271,8 @@ $(window).load(function(){
 	function adjustSlideshow(){
 		$w = $("#fullContainer").width();
 		$h = $(".fullImage").css('height');
-		$j = $("#fullVideo").children(0).css('height');
+		$j = $("#fullVideo").css('height');
 
-		//console.log( "$w: " + $w + ", $h: " + $h + ", $j: " + $j );
-		
 		if($h != null){		
 			//console.log( "fullImage" + $(".fullImage").height());
 			$('#fullContainer').css('height', $h);
@@ -391,11 +388,9 @@ $(window).load(function(){
 					(isMobile ? setupMobile() : "" );
 					moveSlider(currentPosition, actualPosition, false);
 					//manageControls(currentPosition, actualPosition);
-					
+					adjustSlideshow();
 				}catch(e){
 				}
-				
-				adjustSlideshow();
 			}
 		});
 	});
@@ -419,7 +414,7 @@ $(window).load(function(){
 		if( $(".slide .clicked").eq(0).attr("hashr") != "false" ){
 			showDLLinks = true;
 			$("#viewhr").unbind().bind('click',function(){
-				window.open( $(".fullImage").attr("src").replace(".jpg", "_high_res.jpg") );
+				window.open( $(".fullImage").attr("src").replace(".jpg", "_hd.jpg") );
 			}).show();
 			loc -=30;
 		}else{
