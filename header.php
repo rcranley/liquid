@@ -1,5 +1,5 @@
 <?php
-	$rel_path = "/liquid/";
+	$rel_path = "/";
 ?>
 <!--[if IE]>
  <link href="<?php echo $rel_path; ?>styles/normalize.css" type="text/css" media="all"

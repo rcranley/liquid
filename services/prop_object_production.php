@@ -41,7 +41,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Liquid Development :: Services :: Prop and Object Production</title>
+		<title>Liquid Development :: Services :: <?php echo $title; ?></title>
 		<link href="../styles/main.css" rel="stylesheet">
 		<link href="../styles/mass_effect.css" rel="stylesheet">
 	</head>

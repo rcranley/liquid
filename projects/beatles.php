@@ -1,4 +1,4 @@
-<?php 
+<?php
 	// Set the PHP variables to get the images
 	$project = "the_beatles_rock_band";
 	$title = "Beatles Rockband";
@@ -62,6 +62,7 @@
 							$exif = exif_read_data($PATH.'/'.$farray[0]);
 						}else{
 							$exif['ImageDescription'] = "$title " . ($i+1);
+							//$exif['ImageDescription'] = $title . " 1";
 						}
 						$hashr = "false";
 						if(in_array(str_replace("thumb","high_res",$farray[0]),$high_res_array) == 1){
@@ -70,7 +71,7 @@
 						echo '<img src="'.$PATH.'/'. str_replace('_thumb','',$farray[0]) . '" class="fullImage" hashr="'.$hashr.'" '. (strlen($exif['ImageDescription'])>1 ? ' alt="'.$exif['ImageDescription'].'"' : "" ). '" > '; 
 					?>
 				</div>
-				<div id="slideshow" hasZip="<?php echo $haszip;?>" gallery="<?php echo $project;?>" >
+				<div id="slideshow" hasZip="<?php echo $haszip;?>">
 					<div id="slidesContainer">
 					<?php
 						for($i=0; $i<sizeof($farray); $i++)
@@ -97,7 +98,7 @@
 <?php
 	include('../footer.php');
 ?>  
-		<script src="../scripts/jquery.hoverIntent.min.js" type="text/javascript"></script>
+		<!-- <script src="../scripts/jquery.hoverIntent.min.js" type="text/javascript"></script> -->
 		<script src="../scripts/jquery.easing.1.3.js" type="text/javascript"></script>
 		<script src="../scripts/jquery.touchSwipe.js" type="text/javascript"></script>
 		<script src="../scripts/jquery.smartresize.js" type="text/javascript"></script>

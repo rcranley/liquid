@@ -1,4 +1,4 @@
-<?php 
+<?php
 	// Set the PHP variables to get the images
 	$project = "services/social_games";
 	$title = "Social Games";
@@ -12,17 +12,17 @@
 	$haszip = "false";
 	$exif = "";
 
-	if($dir = opendir($PATH) ) { 
+	if($dir = opendir($PATH) ) {
 		// Get all the files labeled "_thumb.jpg"
-		while (false !== ($file = readdir($dir))) { 
-			if (strpos($file, '_thumb.jpg',1) ) { 
+		while (false !== ($file = readdir($dir))) {
+			if (strpos($file, '_thumb.jpg',1) ) {
 				$farray[$i]=$file;
 				//echo str_replace('_thumb.jpg','_video.mp4', $PATH.'/'.$file)."<hr>";
 				if ( file_exists( str_replace('_thumb.jpg','_video.mp4', $PATH.'/'.$file) ) ) {
 					$is_video_array[$i] = "true";
 				}else{
 					$is_video_array[$i] = "false";
-				}				
+				}
 				$i++;
 			}elseif(strpos($file, '_high_res.jpg',1) ){
 				$high_res_array[$j] =$file;
@@ -30,7 +30,7 @@
 			}elseif(strpos($file, '.zip',1) ){
 				$haszip = "true";
 			}
-		} 
+		}
 		closedir($dir);
 	}else{}
 
@@ -41,7 +41,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Liquid Development :: Services :: Social Games</title>
+		<title>Liquid Development :: Services :: <?php echo $title; ?></title>
 		<link href="../styles/main.css" rel="stylesheet">
 		<link href="../styles/mass_effect.css" rel="stylesheet">
 	</head>
@@ -71,7 +71,7 @@
 						if(in_array(str_replace("thumb","high_res",$farray[0]),$high_res_array) == 1){
 							$hashr = "true";
 						}
-						echo '<img src="'.$PATH.'/'. str_replace('_thumb','',$farray[0]) . '" class="fullImage" hashr="'.$hashr.'" '. (strlen($exif['ImageDescription'])>1 ? ' alt="'.$exif['ImageDescription'].'"' : "" ). '" > '; 
+						echo '<img src="'.$PATH.'/'. str_replace('_thumb','',$farray[0]) . '" class="fullImage" hashr="'.$hashr.'" '. (strlen($exif ['ImageDescription'])>1 ? ' alt="'.$exif['ImageDescription'].'"' : "" ). '" > ';
 					?>
 				</div>
 				<div id="slideshow" hasZip="<?php echo $haszip;?>" gallery="<?php echo $project;?>" >
@@ -90,17 +90,17 @@
 								$exif['ImageDescription'] = "$title " . ($i+1);
 							}
 							echo '<div class="slide" '. ($is_video_array[$i] =="true" ? ' isVideo="'.$is_video_array[$i].'"' : "" ). '>';
-							echo '<img src="'."$PATH/$farray[$i]".'" hashr="'.$hashr.'" alt="'. (strlen($exif['ImageDescription'])>0 ? $exif['ImageDescription'] : "" ). '" > '; 
+							echo '<img src="'."$PATH/$farray[$i]".'" hashr="'.$hashr.'" alt="'. (strlen($exif['ImageDescription'])>0 ? $exif ['ImageDescription'] : "" ). '" > ';
 							echo '</div>';
 						}
 					?>
 					</div>
 				</div>
-			</div>	
+			</div>
 		</div>
 <?php
 	include('../footer.php');
-?>  
+?>
 		<script src="../scripts/jquery.hoverIntent.min.js" type="text/javascript"></script>
 		<script src="../scripts/jquery.easing.1.3.js" type="text/javascript"></script>
 		<script src="../scripts/jquery.touchSwipe.js" type="text/javascript"></script>

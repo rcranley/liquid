@@ -1,7 +1,7 @@
 <?php 
 	// Set the PHP variables to get the images
-	$project = "kinect_adventures";
-	$title = "Kinect Adventures";
+	$project = "forzahorizontwo"; // file name that is on the ftp ex: "batman"
+	$title = "Forza Horizon 2"; // html title of the page ex: "Batman"
 	$farray=array();
 	$high_res_array=array();
 	$is_video_array=array();
@@ -67,7 +67,7 @@
 						if(in_array(str_replace("thumb","high_res",$farray[0]),$high_res_array) == 1){
 							$hashr = "true";
 						}
-						echo '<img src="'.$PATH.'/'. str_replace('_thumb','',$farray[0]) . '" class="fullImage" hashr="'.$hashr.'" '. (strlen($exif ['ImageDescription'])>1 ? ' alt="'.$exif['ImageDescription'].'"' : "" ). '" > '; 
+						echo '<img src="'.$PATH.'/'. str_replace('_thumb','',$farray[0]) . '" class="fullImage" hashr="'.$hashr.'" '. (strlen($exif  ['ImageDescription'])>1 ? ' alt="'.$exif['ImageDescription'].'"' : "" ). '" > '; 
 					?>
 				</div>
 				<div id="slideshow" hasZip="<?php echo $haszip;?>" gallery="<?php echo $project;?>" >
@@ -86,7 +86,7 @@
 								$exif['ImageDescription'] = "$title " . ($i+1);
 							}
 							echo '<div class="slide" '. ($is_video_array[$i] =="true" ? ' isVideo="'.$is_video_array[$i].'"' : "" ). '>';
-							echo '<img src="'."$PATH/$farray[$i]".'" hashr="'.$hashr.'" alt="'. (strlen($exif['ImageDescription'])>0 ? $exif ['ImageDescription'] : "" ). '" > '; 
+							echo '<img src="'."$PATH/$farray[$i]".'" hashr="'.$hashr.'" alt="'. (strlen($exif['ImageDescription'])>0 ? $exif  ['ImageDescription'] : "" ). '" > '; 
 							echo '</div>';
 						}
 					?>
