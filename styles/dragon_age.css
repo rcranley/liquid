@@ -10,7 +10,7 @@ body{ background-color: #660000; }
 	background: url(../images/dragon_age/dragon_age_bg_footer.jpg) bottom center no-repeat;
 	background-size: 100%;
 	z-index: -1;
-	background-color: #800000;
+	background-color: #660000;
 }
 #copy {
 	color: white;

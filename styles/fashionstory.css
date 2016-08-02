@@ -1,0 +1,18 @@
+/* Custom CSS for Fashion Story page*/
+
+body{ background-color: #abdfee; }
+
+#container { 
+	background: url(../images/fashionstory/fashionstory_bg_header.jpg) top center no-repeat;
+	background-size: 100%;
+}
+#footer {
+	background: url(../images/fashionstory/fashionstory_bg_footer.jpg) bottom center no-repeat;
+	background-size: 100%;
+	z-index: -1;
+	background-color: #abdfee;
+}
+#copy {
+	color: black;
+	padding:10px;
+}

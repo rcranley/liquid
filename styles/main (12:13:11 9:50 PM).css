@@ -172,17 +172,17 @@ h1{ margin: 0px 0px 32px 0px; }
 
 #contents h1{ width: 100%; text-align:center; }
 
-.banner_img_full{ width:100%; display: inline-block; padding-bottom: 2.5%; }
+.banner_img_full{ width:100%; display: inline-block; padding-bottom: 3%; }
 
-.banner_third_container{ width:100%; left:0;right:0; padding:0; margin:0; overflow:hidden;}
+.banner_third_container{ width:100%; left:0;right:0; padding:0; margin:0; overflow:hidden; }
 
-.banner_img_third{ width:31%; display:block; float:left; padding: 0 0 2.5% 0; }
+.banner_img_third{ width:31%; display:block; float:left; padding: 0 0 3% 0; }
 
 .banner_img_full a, .banner_img_third a{ font: 20px/30px Arial; }
 
 .services{ padding: 0 0 3% 0; }
 
-.home{ padding: 0 0 1% 0; }
+.home{ padding: 0 0 1.5% 0; }
 
 .banner_img_third_l{ margin-right:3.5%; }
 
@@ -195,13 +195,12 @@ h1{ margin: 0px 0px 32px 0px; }
 /* Slide Show */
 
 .loading {
-	background: transparent url('../images/nav/spinner_logo.gif') no-repeat center center;
+	background: transparent url('../images/nav/loader2.gif') no-repeat center center;
 	left:0;right:0;top:0;bottom:0;margin:auto;
 	width:100%
 	height:100px;
 	opacity:.9; 
 	filter:Alpha(opacity=80);
-    background-size:10%;
 }
 
 .rotatorImage{ }
@@ -291,9 +290,9 @@ h1{ margin: 0px 0px 32px 0px; }
 }
 
 #copy {
-	position:relative; /*padding:10px;*/  margin-left: auto;margin-right: auto; left:0;right:0;
+	position:relative; padding:10px;  margin-left: auto;margin-right: auto; left:0;right:0;
 	margin-bottom:10px; overflow: hidden; color:#000; text-align: center; 
 	margin-top: -10704px; height: 10768px;
 }
 
-#copy-content { position: absolute; bottom: 32px; left: 0; right:0;margin:auto;}
+#copy-content { position: absolute; bottom: 32px; left:0; right:0;margin:auto;}

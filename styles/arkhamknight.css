@@ -1,0 +1,18 @@
+/* Custom CSS for arkhamknight page*/
+
+body{ background-color: #a8a39c; }
+
+#container { 
+	background: url(../images/arkhamknight/arkhamknight_bg_header.jpg) top center no-repeat;
+	background-size: 100%;
+}
+#footer {
+	background: url(../images/arkhamknight/arkhamknight_bg_footer.jpg) bottom center no-repeat;
+	background-size: 100%;
+	z-index: -1;
+	background-color: #a8a39c;
+}
+#copy {
+	color: black;
+	padding:10px;
+}

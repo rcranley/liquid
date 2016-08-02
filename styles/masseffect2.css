@@ -13,6 +13,9 @@ body{ background-color: #162743; }
 	background-color: #162743;
 }
 #copy {
-	color: white;
-	padding:10px;
+/*
+	margin-top: -506px;
+	height: 570px;
+	*/color: white;
 }
+#copy-content { position: absolute; bottom: 32px; left: 32px;}
