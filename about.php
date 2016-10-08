@@ -28,6 +28,7 @@ Enter Liquid Development. Using our resources allows the publisher to do what th
  <?php
 	include('footer.php');
 ?>
+		<script src="scripts/jquery.min.js" type="text/javascript"></script>
 		<script src="scripts/jquery.easing.1.3.js" type="text/javascript"></script>
 		<script type="text/javascript" src="scripts/jquery.touchSwipe.js"></script>
 		<script type="text/javascript" src="scripts/jquery.smartresize.js"></script>

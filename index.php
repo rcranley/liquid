@@ -203,6 +203,7 @@
 <?php
 	include('footer.php');
 ?>
+		<script src="scripts/jquery.min.js" type="text/javascript"></script>
 		<script src="scripts/jquery.easing.1.3.js" type="text/javascript"></script>
 		<script type="text/javascript" src="scripts/jquery.hoverIntent.min.js"></script>
 		<script type="text/javascript" src="scripts/jquery.touchSwipe.js"></script>
@@ -239,8 +240,7 @@
 			};
 
 			var arkhamorigins_obj = {
-				imgs : ["images/arkhamorigins/arkhamorigins_home001.jpg","images/arkhamorigins/arkhamorigins_home002.jpg","images/arkhamorigins/arkhamorigins_home003.jpg","images/arkhamorigins/arkhamorigins_home004
-				.jpg","images/arkhamorigins/arkhamorigins_home005.jpg","images/arkhamorigins/arkhamorigins_home006.jpg","images/arkhamorigins/arkhamorigins_home007.jpg","images/arkhamorigins/arkhamorigins_home008.jpg"],
+				imgs : ["images/arkhamorigins/arkhamorigins_home001.jpg","images/arkhamorigins/arkhamorigins_home002.jpg","images/arkhamorigins/arkhamorigins_home003.jpg","images/arkhamorigins/arkhamorigins_home004.jpg","images/arkhamorigins/arkhamorigins_home005.jpg","images/arkhamorigins/arkhamorigins_home006.jpg","images/arkhamorigins/arkhamorigins_home007.jpg","images/arkhamorigins/arkhamorigins_home008.jpg"],
 				pos : 0,
 				id : "arkhamorigins_id"
 			};
