@@ -17,7 +17,7 @@
 		}
 		echo '<img src="'.$PATH.'/'. str_replace('_thumb','',$farray[0]) . 
 				 '" class="fullImage" hashr="'.$hashr.'"
-				 '. (strlen($exif ['ImageDescription'])>1 ? ' alt="'.$exif['ImageDescription'].'"' : "" ). '" > ';
+				 '. (strlen($exif ['ImageDescription'])>1 ? ' alt="'.$exif['ImageDescription'].'"' : "" ). '"> ';
 	?>
 </div>
 <div id="slideshow" hasZip="<?php echo $haszip;?>" gallery="<?php echo $project;?>" >
@@ -35,7 +35,7 @@
 			}else{
 				$exif['ImageDescription'] = "$title " . ($i+1);
 			}
-			echo '<div class="slide" '. ($is_video_array[$i] =="true" ? ' isVideo="'.$is_video_array[$i].'"' : "" ). '>', PHP_EOL;
+			echo '<div class="slide" viewType="'.$render_type_array[$i].'" '. ($is_video_array[$i] =="true" ? ' isVideo="'.$is_video_array[$i].'"' : "" ). '>', PHP_EOL;
 			echo '<img src="'."$PATH/$farray[$i]".'" hashr="'.$hashr.'" alt="'. (strlen($exif['ImageDescription'])>0 ? $exif['ImageDescription'] : $title ). '" > ', PHP_EOL;
 			echo '</div>', PHP_EOL;
 		}
