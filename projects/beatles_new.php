@@ -70,28 +70,7 @@
 		</div>
 <?php
 	include('../footer.php');
+	include('../gallery_includes.php');
 ?>	
-		<script src="../scripts/jquery.hoverIntent.min.js" type="text/javascript"></script>
-		<script src="../scripts/jquery.easing.1.3.js" type="text/javascript"></script>
-		<script src="../scripts/jquery.touchSwipe.js" type="text/javascript"></script>
-		<script src="../scripts/jquery.smartresize.js" type="text/javascript"></script>
-		<script src="../scripts/liquid.js" type="text/javascript"></script>
-		<script src="../scripts/slideshows.js" type="text/javascript"></script>
-		<script type="text/javascript">
-		/*
-			$.preload(
-				'images/beatlesrockband/brb0_full.jpg',
-				'images/beatlesrockband/brb1_full.jpg',
-				'images/beatlesrockband/brb2_full.jpg',
-				'images/beatlesrockband/brb3_full.jpg',
-				'images/beatlesrockband/brb4_full.jpg',
-				'images/beatlesrockband/brb5_full.jpg',
-				'images/beatlesrockband/brb6_full.jpg',
-				'images/beatlesrockband/brb7_full.jpg',
-				'images/beatlesrockband/brb8_full.jpg',
-				'images/beatlesrockband/brb9_full.jpg'
-			);
-		*/
-		</script>
 	</body>
 </html>

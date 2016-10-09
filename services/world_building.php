@@ -3,14 +3,6 @@
 	$project = "services/world_building";
 	$title = "World Building";
 	$prefix = "/world_building";
-	$farray=array();
-	$high_res_array=array();
-	$is_video_array=array();
-	$i=0; $j=0;
-	$PATH = "../images/".$project;
-	$hashr = "false";
-	$haszip = "false";
-	$exif = "";
 
 	include('../dir_reader.php');
 ?>
@@ -40,13 +32,8 @@
 <?php
 	//echo count($farray).'<hr>'.count($is_video_array);
 	include('../footer.php');
+	include('../gallery_includes.php');
 ?>
-		<script src="../scripts/jquery.hoverIntent.min.js" type="text/javascript"></script>
-		<script src="../scripts/jquery.easing.1.3.js" type="text/javascript"></script>
-		<script src="../scripts/jquery.touchSwipe.js" type="text/javascript"></script>
-		<script src="../scripts/jquery.smartresize.js" type="text/javascript"></script>
-		<script src="../scripts/liquid.js" type="text/javascript"></script>
-		<script src="../scripts/slideshows.js" type="text/javascript"></script>
 	</body>
 </html>
 
