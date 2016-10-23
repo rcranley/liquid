@@ -5,7 +5,6 @@
 	$prefix = "/cinematics_";
 
 	include('../dir_reader.php');
-
 ?>
 
 <!DOCTYPE html>
@@ -31,10 +30,8 @@
 			</div>
 		</div>
 <?php
-	//echo count($farray).'<hr>'.count($is_video_array);
 	include('../footer.php');
 	include('../gallery_includes.php');
 ?>
-		<script src="https://viewer.marmoset.co/main/marmoset.js"></script>
 	</body>
 </html>

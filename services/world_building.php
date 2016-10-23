@@ -2,7 +2,7 @@
 	// Set the PHP variables to get the images
 	$project = "services/world_building";
 	$title = "World Building";
-	$prefix = "/world_building";
+	$prefix = "/world_building_";
 
 	include('../dir_reader.php');
 ?>
@@ -30,10 +30,8 @@
 			</div>
 		</div>
 <?php
-	//echo count($farray).'<hr>'.count($is_video_array);
 	include('../footer.php');
 	include('../gallery_includes.php');
 ?>
 	</body>
 </html>
-

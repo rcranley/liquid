@@ -17,193 +17,216 @@
 	include('header.php');
 ?>
 		<div id="contents">
+		<!-- BEGIN OF LINE ___ From Index Automation-->
 		<div class="banner_third_container">
-			     <div class="banner_img_third banner_img_third_l home" id="1">
+			     <div class="banner_img_third banner_img_third_l home" id="3">
+					<a href="projects/killstrain.php">
+						<img src="images/killstrain/killstrain_home001.jpg" alt="Killstrain" class="imgHover">
+					</a>
+					<div class="overLay overLayHome" style="bottom: 38px;" id="killstrain">Killstrain</div>
+				</div>
+			     <div class="banner_img_third banner_img_third_m home" id="4">
+					<a href="projects/legends.php">
+						<img src="images/legends/legends_home001.jpg" alt="Elder Scrolls Legends" class="imgHover">
+					</a>
+					<div class="overLay overLayHome" style="bottom: 38px;" id="legends">Elder Scrolls Legends</div>
+				</div>
+			     <div class="banner_img_third banner_img_third_r home" id="5">
 					<a href="projects/doom.php">
 						<img src="images/doom/doom_home001.jpg" alt="DOOM" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="doom">DOOM</div>
-				</div>		
-			     <div class="banner_img_third banner_img_third_m home" id="2">
+				</div>
+			</div>
+<div class="banner_third_container">
+			     <div class="banner_img_third banner_img_third_l home" id="6">
 					<a href="projects/WildStar.php">
 						<img src="images/WildStar/WildStar_home001.jpg" alt="Wildstar" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="Wildstar">Wildstar</div>
-				</div>			
-			     <div class="banner_img_third banner_img_third_r home" id="3">
+				</div>
+			     <div class="banner_img_third banner_img_third_m home" id="7">
 					<a href="projects/DCL.php">
 						<img src="images/DCL/DCL_home001.jpg" alt="DC Legends" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="DCL">DC Legends</div>
 				</div>
-			</div>
-<div class="banner_third_container">
-			     <div class="banner_img_third banner_img_third_l home" id="2">
+			     <div class="banner_img_third banner_img_third_r home" id="8">
 					<a href="projects/hungrysharkworld.php">
 						<img src="images/hungrysharkworld/hsw_home001.jpg" alt="Hungry Shark World" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="hungrysharkworld">Hungry Shark World</div>
-				</div>		
-			     <div class="banner_img_third banner_img_third_m home" id="3">
+				</div>
+			</div>
+<div class="banner_third_container">
+			     <div class="banner_img_third banner_img_third_l home" id="9">
 					<a href="projects/arkhamknight.php">
 						<img src="images/arkhamknight/arkhamknight_home001.jpg" alt="Arkham Knight" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="arkhamknight">Arkham Knight</div>
-				</div>			
-			     <div class="banner_img_third banner_img_third_r home" id="4">
+				</div>
+			     <div class="banner_img_third banner_img_third_m home" id="10">
 					<a href="projects/halofive.php">
 						<img src="images/halofive/halofive_home001.jpg" alt="Halo 5 Guardians" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="halofive">Halo 5 Guardians</div>
 				</div>
-			</div>
-<div class="banner_third_container">
-			     <div class="banner_img_third banner_img_third_l home" id="3">
+			     <div class="banner_img_third banner_img_third_r home" id="11">
 					<a href="projects/evolve.php">
 						<img src="images/evolve/evolve_home001.jpg" alt="Evolve" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="evolve">Evolve</div>
-				</div>		
-			     <div class="banner_img_third banner_img_third_m home" id="4">
+				</div>
+			</div>
+<div class="banner_third_container">
+			     <div class="banner_img_third banner_img_third_l home" id="12">
 					<a href="projects/halifax.php">
 						<img src="images/halifax/halifax_home001.jpg" alt="Puzzle and Glory" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="halifax">Puzzle and Glory</div>
-				</div>			
-			     <div class="banner_img_third banner_img_third_r home" id="5">
+				</div>
+			     <div class="banner_img_third banner_img_third_m home" id="13">
 					<a href="projects/forzahorizontwo.php">
 						<img src="images/forzahorizontwo/forzahorizontwo_home001.jpg" alt="Forza Horizon 2" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="forzahorizontwo">Forza Horizon 2</div>
 				</div>
-			</div>
-<div class="banner_third_container">
-			     <div class="banner_img_third banner_img_third_l home" id="4">
+			     <div class="banner_img_third banner_img_third_r home" id="14">
 					<a href="projects/blpresequel.php">
 						<img src="images/blpresequel/blpresequel_homesq000.jpg" alt="Borderlands the Pre-Sequel" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="blpresequel">Borderlands the Pre-Sequel</div>
-				</div>		
-			     <div class="banner_img_third banner_img_third_m home" id="5">
+				</div>
+			</div>
+<div class="banner_third_container">
+			     <div class="banner_img_third banner_img_third_l home" id="15">
 					<a href="projects/mmx.php">
 						<img src="images/mmx/mmx_sqhome001.jpg" alt="MMX Racing" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="mmx">MMX Racing</div>
-				</div>			
-			     <div class="banner_img_third banner_img_third_r home" id="6">
+				</div>
+			     <div class="banner_img_third banner_img_third_m home" id="16">
 					<a href="projects/empire_z.php">
 						<img src="images/empire_z/empire_z_homesq001.jpg" alt="Empire Z" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="empire_z">Empire Z</div>
 				</div>
-			</div>
-<div class="banner_third_container">
-			     <div class="banner_img_third banner_img_third_l home" id="5">
+			     <div class="banner_img_third banner_img_third_r home" id="17">
 					<a href="projects/arkhamorigins.php">
 						<img src="images/arkhamorigins/arkhamorigins_home001.jpg" alt="Arkham Origins" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="arkhamorigins">Arkham Origins</div>
-				</div>		
-			     <div class="banner_img_third banner_img_third_m home" id="6">
+				</div>
+			</div>
+<div class="banner_third_container">
+			     <div class="banner_img_third banner_img_third_l home" id="18">
 					<a href="projects/borderlands2.php">
 						<img src="images/borderlands/borderlands_home001.jpg" alt="Borderlands 2" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="borderlands">Borderlands 2</div>
-				</div>			
-			     <div class="banner_img_third banner_img_third_r home" id="7">
+				</div>
+			     <div class="banner_img_third banner_img_third_m home" id="19">
 					<a href="projects/masseffect3.php">
 						<img src="images/mass_effect/mass_effect_home001.jpg" alt="Mass Effect 3" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="masseffect">Mass Effect 3</div>
 				</div>
-			</div>
-<div class="banner_third_container">
-			     <div class="banner_img_third banner_img_third_l home" id="6">
+			     <div class="banner_img_third banner_img_third_r home" id="20">
 					<a href="projects/beatles.php">
 						<img src="images/the_beatles_rock_band/the_beatles_home001.jpg" alt="Beatles Rockband" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="beatlesrockband">Beatles Rockband</div>
-				</div>		
-			     <div class="banner_img_third banner_img_third_m home" id="7">
+				</div>
+			</div>
+<div class="banner_third_container">
+			     <div class="banner_img_third banner_img_third_l home" id="21">
 					<a href="projects/halo.php">
 						<img src="images/halo/halo_home001.jpg" alt="Halo" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="halo">Halo</div>
-				</div>			
-			     <div class="banner_img_third banner_img_third_r home" id="8">
+				</div>
+			     <div class="banner_img_third banner_img_third_m home" id="22">
 					<a href="projects/battlebeach.php">
 						<img src="images/battlebeach/battlebeach_home001.jpg" alt="Battle Beach" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="battlebeach">Battle Beach</div>
 				</div>
-			</div>
-<div class="banner_third_container">
-			     <div class="banner_img_third banner_img_third_l home" id="7">
+			     <div class="banner_img_third banner_img_third_r home" id="23">
 					<a href="projects/shootmanyrobots.php">
 						<img src="images/shootmanyrobots/shootmanyrobots_home001.jpg" alt="Shoot Many Robots" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="shootmanyrobots">Shoot Many Robots</div>
-				</div>		
-			     <div class="banner_img_third banner_img_third_m home" id="8">
+				</div>
+			</div>
+<div class="banner_third_container">
+			     <div class="banner_img_third banner_img_third_l home" id="24">
 					<a href="projects/mightandmagic.php">
 						<img src="images/mightandmagic/mightandmagic_home001.jpg" alt="Might And Magic" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="mightandmagic">Might And Magic</div>
-				</div>			
-			     <div class="banner_img_third banner_img_third_r home" id="9">
+				</div>
+			     <div class="banner_img_third banner_img_third_m home" id="25">
 					<a href="projects/firefall.php">
 						<img src="images/firefall/firefall_home001.jpg" alt="Firefall" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="firefall">Firefall</div>
 				</div>
-			</div>
-<div class="banner_third_container">
-			     <div class="banner_img_third banner_img_third_l home" id="8">
+			     <div class="banner_img_third banner_img_third_r home" id="26">
 					<a href="projects/killzone.php">
 						<img src="images/killzone/killzone_home001.jpg" alt="Killzone" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="killzone">Killzone</div>
-				</div>		
-			     <div class="banner_img_third banner_img_third_m home" id="9">
+				</div>
+			</div>
+<div class="banner_third_container">
+			     <div class="banner_img_third banner_img_third_l home" id="27">
 					<a href="projects/fallout3.php">
 						<img src="images/fallout/fallout_home001.jpg" alt="Fallout" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="fallout">Fallout</div>
-				</div>			
-			     <div class="banner_img_third banner_img_third_r home" id="10">
-					<a href="projects/dragonage">
+				</div>
+			     <div class="banner_img_third banner_img_third_m home" id="28">
+					<a href="projects/dragon_age.php">
 						<img src="images/dragon_age/dragon_age_home001.jpg" alt="Dragon Age" class="imgHover">
 					</a>
-					<div class="overLay overLayHome" style="bottom: 38px;" id="dragonage">Dragon Age</div>
+					<div class="overLay overLayHome" style="bottom: 38px;" id="dragon_age">Dragon Age</div>
 				</div>
-			</div>
-<div class="banner_third_container">
-			     <div class="banner_img_third banner_img_third_l home" id="9">
+			     <div class="banner_img_third banner_img_third_r home" id="29">
 					<a href="projects/kinectadventures.php">
 						<img src="images/kinect_adventures/kinect_adventures_home001.jpg" alt="Kinect Adventures" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="kinect">Kinect Adventures</div>
-				</div>		
-			     <div class="banner_img_third banner_img_third_m home" id="10">
+				</div>
+			</div>
+<div class="banner_third_container">
+			     <div class="banner_img_third banner_img_third_l home" id="30">
 					<a href="projects/fashionstory.php">
 						<img src="images/fashionstory/fashionstory_home001.jpg" alt="Fashion Story" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="fashionstory">Fashion Story</div>
-				</div>			
-			     <div class="banner_img_third banner_img_third_r home" id="11">
+				</div>
+			     <div class="banner_img_third banner_img_third_m home" id="31">
 					<a href="projects/fable.php">
 						<img src="images/fable/fable_home001.jpg" alt="Fable" class="imgHover">
 					</a>
 					<div class="overLay overLayHome" style="bottom: 38px;" id="fable">Fable</div>
 				</div>
+			     <div class="banner_img_third banner_img_third_r home" id="32">
+					<a href="projects/pixiehollow.php">
+						<img src="images/pixie_hollow/pixie_hollow_home001.jpg" alt="Pixie Hollow" class="imgHover">
+					</a>
+					<div class="overLay overLayHome" style="bottom: 38px;" id="pixiehollow">Pixie Hollow</div>
+				</div>
 			</div>
 
+
+			<!-- END OF LINE ___ From Index Autoamtion-->
 		</div>
     </div>
 <?php
 	include('footer.php');
 ?>
-		<script src="scripts/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="scripts/jquery.min.js"></script>
 		<script src="scripts/jquery.easing.1.3.js" type="text/javascript"></script>
 		<script type="text/javascript" src="scripts/jquery.hoverIntent.min.js"></script>
 		<script type="text/javascript" src="scripts/jquery.touchSwipe.js"></script>
@@ -244,27 +267,27 @@
 				pos : 0,
 				id : "arkhamorigins_id"
 			};
-			
-			
-			
+
+
+
 			var blpresequel_obj = {
 				imgs : ["images/blpresequel/blpresequel_homesq000.jpg","images/blpresequel/blpresequel_homesq002.jpg","images/blpresequel/blpresequel_homesq003.jpg","images/blpresequel/blpresequel_homesq004.jpg"],
 				pos : 0,
 				id : "blpresequel_id"
 			};
-						
+
 			var mmx_obj = {
 				imgs : ["images/mmx/mmx_sqhome001.jpg","images/mmx/mmx_sqhome002.jpg","images/mmx/mmx_sqhome003.jpg","images/mmx/mmx_sqhome004.jpg","images/mmx/mmx_sqhome005.jpg"],
 				pos : 0,
 				id : "mmx_id"
 			};
-			
+
 			var epire_z_obj = {
 				imgs : ["images/empire_z/empire_z_homesq001.jpg","images/empire_z/empire_z_homesq002.jpg","images/empire_z/empire_z_homesq003.jpg","images/empire_z/empire_z_homesq004.jpg","images/empire_z/empire_z_homesq005.jpg"],
 				pos : 0,
 				id : "empire_z_id"
 			};
-			
+
 			var borderlands_obj = {
 				imgs : ["images/borderlands/borderlands_home001.jpg","images/borderlands/borderlands_home002.jpg"],
 				pos : 0,

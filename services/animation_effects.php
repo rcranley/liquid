@@ -30,7 +30,6 @@
 			</div>
 		</div>
 <?php
-	//echo count($farray).'<hr>'.count($is_video_array);
 	include('../footer.php');
 	include('../gallery_includes.php');
 ?>

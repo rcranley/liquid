@@ -1,3 +1,4 @@
+<!-- gallery: -->
 <div id="fullContainer" >
 	<div id="floatNavLeft" class="floatNav"></div>
 	<div id="floatNavRight" class="floatNav"></div>
@@ -15,7 +16,7 @@
 		if(in_array(str_replace("thumb","high_res",$farray[0]),$high_res_array) == 1){
 			$hashr = "true";
 		}
-		echo '<img src="'.$PATH.'/'. str_replace('_thumb','',$farray[0]) . 
+		echo '<img src="'.$PATH.'/'. str_replace('_thumb','',$farray[0]) .
 				 '" class="fullImage" hashr="'.$hashr.'"
 				 '. (strlen($exif ['ImageDescription'])>1 ? ' alt="'.$exif['ImageDescription'].'"' : "" ). '"> ';
 	?>
@@ -42,3 +43,4 @@
 	?>
 	</div>
 </div>
+<!-- /gallery: -->

@@ -2,7 +2,7 @@
 	// Set the PHP variables to get the images
 	$project = "services/ui_design_and_production";
 	$title = "UI Design and Production";
-	$prefix = "/ui";
+	$prefix = "/ui_";
 
 	include('../dir_reader.php');
 ?>
@@ -30,7 +30,6 @@
 			</div>
 		</div>
 <?php
-	//echo count($farray).'<hr>'.count($is_video_array);
 	include('../footer.php');
 	include('../gallery_includes.php');
 ?>
